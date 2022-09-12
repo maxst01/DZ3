@@ -1,19 +1,19 @@
 ﻿// Задача 19
 
-//Console.Write("Введите число");
-//string? number = Console.ReadLine();
-//void CheckingNumber(string number){
-//  if (number[0]==number[4] || number[1]==number[3]){
-//    Console.WriteLine($"{number} - палиндром.");
-//  }
-//  else Console.WriteLine($"{number} - НЕ палиндром.");
+//Console.Write("Введите число: ");
+//int number = int.Parse(Console.ReadLine());
+//int a = number / 10000;
+//int b = (number / 1000) % 10;
+//int d = (number / 10) % 10;
+//int e = number % 10;
+//if (a == e && b == d)
+//{
+//Console.WriteLine("Число " + number + " является палиндромом");
 //}
-//if (number!.Length == 5){
-//  CheckingNumber(number);
+//else
+//{
+//Console.WriteLine("Число " + number + " не является палиндромом");
 //}
-//else Console.WriteLine($"Введи правильное число");
-
-
 //Задача 21
 
 //int x1 = Coordinate("x", "A");
